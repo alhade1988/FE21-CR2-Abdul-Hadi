@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+    list-style: none;
+    background-color: rgb(17, 20, 20);
+    height: 50px;
+    margin-top: 0px;
+}
+
+.navbar a {
+    color: $color;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
