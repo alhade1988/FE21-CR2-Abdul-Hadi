@@ -1,5 +1,4 @@
 $color :white;
-@import "navbar";
 * {
     margin: 0px;
     padding: 0px;
@@ -11,6 +10,24 @@ div {
     display: inline-block;
     padding: 3px;
     height: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10vh;
+    list-style: none;
+    background-color: black;
+    height: 50px;
+    margin-top: 0px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .date {
@@ -34,7 +51,7 @@ div {
         position: absolute;
         left: 2px;
         width: 10%;
-        height: 300px;
+        height: 150px;
         margin: 20px;
         box-sizing: border-box;
         font-size: 50px;
@@ -43,7 +60,7 @@ div {
         position: absolute;
         right: 500px;
         width: 10%;
-        height: 300px;
+        height: 150px;
         margin: 20px;
         box-sizing: border-box;
         font-size: 50px;
